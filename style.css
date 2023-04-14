@@ -17,7 +17,7 @@ tr, td, th{
 tbody td:first-child{
   background-color: aqua;
 }
-table tr:first-child{
+thead tr:first-child{
   background-color: bisque;
 }
 tbody tr:first-child{
@@ -34,6 +34,6 @@ tr:nth-child(odd)
   background-color: darkkhaki;
   color:black;
 }
-tfoot{
-  background-color:rgb(247, 155, 121);
+tfoot tr:first-child{
+  background-color: coral;
 }
